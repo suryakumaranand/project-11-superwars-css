@@ -1,4 +1,64 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+body{
+  font-family: Arial;
+  font-size: medium;
+}
+.grid{
+display: grid;
+grid-gap: 1em;
+
+justify-items: center;
+align-items: center;
+grid-template-columns: auto auto auto ;
+justify-content: space-evenly;
+}
+
+
+#cont1{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  
+}
+#cont2{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#im1
+{
+  
+  border-style: solid;
+  border-radius: 10px;
+  border: 0.5px lightgray solid;
+  margin: 10px;
+}
+#im2
+{
+  
+  border-style: solid;
+  border-radius: 10px;
+  border: 0.5px lightgray solid;
+  margin: 10px;
+}
+#im3
+{
+  
+  border-style: solid;
+  border-radius: 10px;
+  border: 0.5px lightgray solid;
+  margin: 10px;
+}
+#im4
+{
+  
+  border-style: solid;
+  border-radius: 10px;
+  border: 0.5px lightgray solid;
+  margin: 10px;
+}
+
+h1{
+border:0px;
+margin-bottom: auto;
 }
